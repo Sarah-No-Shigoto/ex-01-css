@@ -1,0 +1,14 @@
+a[href*="https"] {
+	color: blue;
+	font-weight: bold;
+}
+
+a[href*="#"] {
+	color: blue;
+}
+
+a[href*="https"]:before {
+	content: "->";
+	padding-right: 5px;
+}
+
